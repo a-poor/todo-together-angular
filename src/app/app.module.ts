@@ -7,6 +7,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon'; 
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTabsModule } from '@angular/material/tabs'; 
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -27,6 +28,7 @@ import { MenubarComponent } from './menubar/menubar.component';
     MatIconModule,
     MatToolbarModule,
     MatTabsModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
