@@ -11,12 +11,35 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
 .app-tabs {
   width: 100%;
 }
 
+.everything {
+  /* display: flex; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.menu {
+  /* display: inline; */
+}
+
 
 .content {
+  /* flex: 1 1 auto; */
+  height: 100%;
+}
 
+.main {
+  height: 100%;
+  flex: 1 1 auto;
 }
 
